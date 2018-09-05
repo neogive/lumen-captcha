@@ -1,0 +1,31 @@
+{
+    "name": "neogive/lumen-captcha",
+    "description": "lumen Captcha",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xuao",
+            "email": "295184686@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-gd": "*",
+        "laravel/lumen-framework": "~5.2",
+        "illuminate/config": "~5.0",
+        "illuminate/filesystem": "~5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/hashing": "~5.0",
+        "intervention/image": "~2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neo\\LumenCaptcha\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
