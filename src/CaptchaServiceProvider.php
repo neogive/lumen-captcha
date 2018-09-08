@@ -17,10 +17,7 @@ class CaptchaServiceProvider extends ServiceProvider {
      * @return null
      */
     public function boot()
-    {
-        // HTTP routing
-        $this->app->router->get('captcha/{type}/{captchaId}', 'Neo\LumenCaptcha\LumenCaptchaController@getCaptcha');
-    }
+    {}
 
     /**
      * Register the service provider.

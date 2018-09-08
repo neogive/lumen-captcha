@@ -229,7 +229,7 @@ class Captcha //extends Captcha
      * @param $captchaId
      * @return mixed
      */
-    public function createById($config = 'default',$captchaId)
+    public function createById($config = 'default', $captchaId)
     {
 
         $this->backgrounds = $this->files->files(__DIR__ . '/../assets/backgrounds');
