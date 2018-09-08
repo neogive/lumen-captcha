@@ -2,8 +2,6 @@
 
 namespace Neo\LumenCaptcha;
 
-
-//use Mews\Captcha\Captcha;
 use Cache;
 use Exception;
 use Illuminate\Config\Repository;
